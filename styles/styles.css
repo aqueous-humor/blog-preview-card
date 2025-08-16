@@ -1,0 +1,124 @@
+    @font-face {
+        font-family: 'Figtree';
+        src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
+        font-weight: 100 900;
+        font-display: swap;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #F4D04E;
+        font-family: "Figtree", sans-serif;
+        height: 100vh;
+        margin: 0;
+        padding: 0 1.5rem;
+    }
+
+    h1,
+    p {
+        margin: 0;
+    }
+
+
+    .author-photo {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .author-name {
+        font-size: 0.875rem;
+        font-weight: 800;
+        line-height: 150%;
+    }
+
+    .blog-card {
+        align-items: flex-start;
+        background-color: #FFFFFF;
+        border: 1px solid #111111;
+        box-shadow: 0.5rem 0.5rem #000000;
+        border-radius: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 20.5rem;
+        gap: 1.5rem;
+        max-width: 24rem;
+        padding: 1.5rem;
+        width: 100%;
+    }
+
+    .blog-card header {
+        height: 12.5rem;
+        width: 100%;
+    }
+
+    .blog-card header img {
+        border-radius: 0.625rem;
+        height: 12.5rem;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+
+    .blog-card footer {
+        gap: 12px;
+    }
+
+    .category {
+        background-color: #F4D04E;
+        border-radius: 0.25rem;
+        color: #111111;
+        font-size: clamp(0.75rem, 3vw, 0.875rem);
+        font-weight: 800;
+        line-height: 150%;
+        padding: 0.25rem 0.75rem;
+        width: fit-content;
+    }
+
+    .flexbox-container {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .publish-date {
+        font-size: clamp(0.75rem, 3vw, 0.875rem);
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .text-content a {
+        color: #111111;
+        text-decoration: none;
+    }
+
+    .text-content a:hover {
+        color: #F4D04E;
+    }
+
+    .text-content h1 {
+        font-size: clamp(1.25rem, 5vw, 1.5rem);
+        font-weight: 800;
+        line-height: 150%;
+    }
+
+    .text-content p {
+        color: #6B6B6B;
+        font-size: clamp(0.875rem, 4vw, 1rem);
+        font-weight: 500;
+        line-height: 150%;
+    }
